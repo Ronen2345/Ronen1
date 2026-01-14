@@ -4,7 +4,7 @@
   "description": "My first DevOps project",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",  <-- ADD THIS COMMA
+    "start": "node app.js",  
     "test": "node app.js"
   },
   "dependencies": {
