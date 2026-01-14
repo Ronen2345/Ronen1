@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   console.log(chalk.blue('Someone visited the site!'));
-  res.send('<h1 style="color: blue;">Hello World in Blue!</h1>');
+  res.send('<h1 style="color: blue; font-size: 48px; ">Hello World in Blue!</h1>');
 });
 
 app.listen(port, () => {
